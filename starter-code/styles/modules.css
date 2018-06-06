@@ -1,0 +1,42 @@
+/* Media rules for different screen sizes */
+
+@media only screen and (max-width:640px) {
+    nav li{
+        display: none;
+    } 
+    .pull-left{
+      max-width: 100%;
+      height: auto;
+    }  
+    .pull-right{
+      max-width: 100%;
+      height: auto;
+    }  
+  
+    nav:hover li{
+      display: block;
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (min-width:640px) {
+    .fas.fa-bars {
+        display: none;
+    }
+  }
+  
+  /* Navbar & Header Rules */
+    
+  header.clearfix {
+    background-color: orange;
+  }
+  
+  nav li {
+    list-style-type: none;
+  }
+
+/* This is for the articles */
+
+  .template {
+    display:none;
+  }

@@ -1,7 +1,7 @@
 'use strict';
 
-// COMMENT: How is this data utilized within our blog app? What is the structure of this data (your response should include the terms "object", "array", and "key/value pairs")?
-// PUT YOUR RESPONSE HERE
+// COMMENT: How is this data utilized within our blog app? What is the structure of this data (your response should include the terms "object", "array", and "key/value pairs")? DONE!
+// It is being passed into an array of objects, as an object. The array properties hold key/value pairs that tell the browser what content to render to the page, and where.
 
 let rawData = [
   {
